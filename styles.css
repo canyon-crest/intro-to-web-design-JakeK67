@@ -9,3 +9,11 @@ p.norm {
 div {
     word-wrap: break-word;
 }
+
+img {
+    float: right;
+}
+
+body{
+    background-color: antiquewhite;
+}
