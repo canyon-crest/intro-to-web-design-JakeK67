@@ -59,7 +59,7 @@ p {
     font-size: 25px;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
     h1 {
         background-color: rgb(162, 170, 191);
         border:rgb(85, 108, 149), solid, 2px;
