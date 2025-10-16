@@ -2,7 +2,7 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-p.norm {
+.norm {
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -12,7 +12,7 @@ div {
 
 img {
     float: right;
-    width: 300px;
+    width: 200px;
     height: auto;
 }
 
