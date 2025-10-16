@@ -8,6 +8,7 @@
 
 div {
     word-wrap: break-word;
+    text-align: center;
 }
 
 img {
@@ -21,9 +22,11 @@ body{
     background-color: antiquewhite;
 }
 
-.fh1 {
+h1 {
     background-color: rgb(191, 178, 162);
     border:rgb(255, 230, 199), solid, 2px;
     border-radius: 10px;
     padding: 2px;
+    text-align: center;
+    margin: 0px, auto;
 }
