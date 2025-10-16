@@ -9,6 +9,7 @@
 div {
     word-wrap: break-word;
     text-align: center;
+    padding-bottom: 200px;
 }
 
 img {
