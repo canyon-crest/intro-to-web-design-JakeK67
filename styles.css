@@ -55,6 +55,7 @@ h3 {
 }
 
 p {
+    line-height: 150%;
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
 }
