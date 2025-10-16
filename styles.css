@@ -9,7 +9,8 @@
 div {
     word-wrap: break-word;
     text-align: center;
-    margin: 15vw;
+    margin: 7vw;
+    border : 2px, solid;
 }
 
 img {
@@ -20,18 +21,25 @@ img {
     border-radius: 15px;
 }
 
+.n1 {
+    float: left;
+}
+
 body{
     background-color: antiquewhite;
 }
 
 h1 {
-    font-size: 35;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
     background-color: rgb(191, 178, 162);
     border:rgb(255, 230, 199), solid, 2px;
     border-radius: 10px;
     padding: 2px;
     text-align: center;
     margin: 0px, auto;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 a:link{
     color:rgb(86, 86, 86);
@@ -43,8 +51,26 @@ a:visited{
 h3 {
     font-size: 30px;
     text-decoration: dotted;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 p {
+    font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        background-color: rgb(162, 170, 191);
+        border:rgb(85, 108, 149), solid, 2px;
+    }
+    body {
+        background-color: rgb(208, 236, 245);
+    }
+    p {
+        font-size: 20px;
+    }
+    div {
+        margin: 15vw;
+    }
 }
