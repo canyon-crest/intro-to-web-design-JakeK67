@@ -9,7 +9,7 @@
 div {
     word-wrap: break-word;
     text-align: center;
-    padding-bottom: 200px;
+    padding-bottom: 50px;
 }
 
 img {
@@ -17,6 +17,7 @@ img {
     width: 200px;
     height: auto;
     padding: 10px;
+    border-radius: 15px;
 }
 
 body{
@@ -30,4 +31,10 @@ h1 {
     padding: 2px;
     text-align: center;
     margin: 0px, auto;
+}
+a:link{
+    color:rgb(86, 86, 86);
+}
+a:visited{
+    color:rgb(53, 53, 53);
 }
