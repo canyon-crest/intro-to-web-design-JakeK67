@@ -5,3 +5,7 @@
 p.norm {
     font-family: "Lucida Console", "Courier New", monospace;
 }
+
+div {
+    word-wrap: break-word;
+}
