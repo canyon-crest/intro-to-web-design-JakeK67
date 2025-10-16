@@ -14,8 +14,16 @@ img {
     float: right;
     width: 200px;
     height: auto;
+    padding: 10px;
 }
 
 body{
     background-color: antiquewhite;
+}
+
+.fh1 {
+    background-color: rgb(191, 178, 162);
+    border:rgb(255, 230, 199), solid, 2px;
+    border-radius: 10px;
+    padding: 2px;
 }
