@@ -59,7 +59,7 @@ p {
     font-size: 25px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     h1 {
         background-color: rgb(162, 170, 191);
         border:rgb(85, 108, 149), solid, 2px;
@@ -75,7 +75,7 @@ p {
     }
 }
 
-@media (orientation: landscape) {
+@media (max-width: 600px) {
     h1 {
         background-color: rgb(191, 162, 162);
         border:rgb(149, 85, 85), solid, 2px;
@@ -85,7 +85,7 @@ p {
     }
 }
 
-@media (orientation: portrait) {
+@media (max-width:500px) {
     h1 {
         background-color: rgb(190, 162, 191);
         border:rgb(149, 85, 149), solid, 2px;
