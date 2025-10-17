@@ -1,5 +1,7 @@
 .intro {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 0px;
+    margin-top: 5px;
 }
 
 .norm {
@@ -9,7 +11,7 @@
 div {
     word-wrap: break-word;
     text-align: center;
-    margin: 7vw;
+    margin: 10px;
     border : 2px, solid;
 }
 
@@ -47,6 +49,9 @@ a:link{
 a:visited{
     color:rgb(53, 53, 53);
 }
+a:hover{
+    color:rgb(193, 193, 193);
+}
 
 h3 {
     font-size: 30px;
@@ -60,7 +65,13 @@ p {
     font-size: 25px;
 }
 
-@media (max-width: 700px) {
+#container {
+    margin: 7vw;
+    border-left: 5px double white;
+    border-right: 5px double white;
+}
+
+@media (max-width: 1200px) {
     h1 {
         background-color: rgb(162, 170, 191);
         border:rgb(85, 108, 149), solid, 2px;
@@ -72,11 +83,14 @@ p {
         font-size: 20px;
     }
     div {
-        margin: 15vw;
+        margin: 3vw;
+    }
+    #container{
+        width: 800px;
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 992px) {
     h1 {
         background-color: rgb(191, 162, 162);
         border:rgb(149, 85, 85), solid, 2px;
@@ -84,9 +98,13 @@ p {
     body {
         background-color: rgb(245, 208, 208);
     }
+    #container{
+        width: 90%;
+        margin: 4vw;
+    }
 }
 
-@media (max-width:500px) {
+@media (max-width:768px) {
     h1 {
         background-color: rgb(190, 162, 191);
         border:rgb(149, 85, 149), solid, 2px;
@@ -94,4 +112,21 @@ p {
     body {
         background-color: rgb(245, 208, 243);
     }
+}
+
+#sidebar {
+    float: right;
+    border: 10px, white;
+    margin: 30px;
+    margin-right: 50px;
+    width: 250px;
+    text-align: left;
+    background-color: black;
+    color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 150%;
+}
+
+#sidebar h3{
+    text-align: center;
 }
