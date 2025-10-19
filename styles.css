@@ -2,6 +2,7 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border: 0px;
     margin-top: 5px;
+    background-color: #EFC88B;
 }
 
 .norm {
@@ -13,7 +14,21 @@ div {
     text-align: center;
     margin: 10px;
     border : 2px, solid;
+    border-color: white;
     margin-bottom: 100px;
+    border-radius: 30px;
+}
+
+.div1{
+    background-color: #CF5C36;
+}
+
+.div2{
+    background-color: #F4E3B2;
+}
+
+.div3{
+    background-color: #EFC88B;
 }
 
 img {
@@ -28,15 +43,13 @@ img {
     float: left;
 }
 
-body{
-    background-color: antiquewhite;
-}
 
 h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 40px;
     background-color: rgb(191, 178, 162);
     border:rgb(255, 230, 199), solid, 2px;
+    color: #050517;
     border-radius: 10px;
     padding: 2px;
     text-align: center;
@@ -56,11 +69,13 @@ a:hover{
 
 h3 {
     font-size: 30px;
+    color: #050517;
     text-decoration: dotted;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 p {
+    color: #050517;
     line-height: 180%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 25px;
@@ -70,15 +85,17 @@ p {
     margin: 7vw;
     border-left: 5px double white;
     border-right: 5px double white;
+    background-color: #D3D5D7;
+}
+
+body {
+    background-color: #050517;
 }
 
 @media (max-width: 1200px) {
     h1 {
         background-color: rgb(162, 170, 191);
         border:rgb(85, 108, 149), solid, 2px;
-    }
-    body {
-        background-color: rgb(208, 236, 245);
     }
     p {
         font-size: 20px;
@@ -96,9 +113,6 @@ p {
         background-color: rgb(191, 162, 162);
         border:rgb(149, 85, 85), solid, 2px;
     }
-    body {
-        background-color: rgb(245, 208, 208);
-    }
     #container{
         width: 90%;
         margin: 4vw;
@@ -109,9 +123,6 @@ p {
     h1 {
         background-color: rgb(190, 162, 191);
         border:rgb(149, 85, 149), solid, 2px;
-    }
-    body {
-        background-color: rgb(245, 208, 243);
     }
 }
 
