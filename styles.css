@@ -9,6 +9,18 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.Limg{
+    width: 100px;
+}
+
+.LdivB{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border: none;
+}
+
 div {
     overflow-wrap: break-word;
     text-align: center;
