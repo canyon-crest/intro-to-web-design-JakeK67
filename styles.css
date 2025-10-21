@@ -29,7 +29,7 @@ div {
     margin-bottom: 100px;
     border-radius: 30px;
     overflow: hidden;
-    cursor: url('images/cursor.png');
+    cursor: url('../images/cursor.png') 0 0, pointer;
 }
 
 .div1 {
