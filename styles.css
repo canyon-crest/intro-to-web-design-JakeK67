@@ -79,7 +79,7 @@ a:visited {
 }
 
 a:hover {
-    color: rgb(193, 193, 193);
+    color: rgb(141, 141, 141);
 }
 
 h3 {
@@ -135,7 +135,7 @@ body {
     --accent-3: #F7996E;
     --text-color: #050517;
     --border-color: #ffffff;
-    --link-color: rgb(86,86,86);
+    --link-color: rgb(174, 174, 174);
     --h1-bg: rgb(191, 178, 162);
     --h1-border: rgb(255, 230, 199);
     --div-back: #695a52;
