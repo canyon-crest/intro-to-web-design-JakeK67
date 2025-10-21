@@ -215,3 +215,7 @@ body {
     text-align: center;
     color: white;
 }
+
+.highlight {
+    background-color: yellow;
+}
